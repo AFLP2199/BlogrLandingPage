@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Blogr]</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="inner-header">
+      <a href="#/" id="open-menu"></a>
+      <nav>
+        <img src="images/logo.svg" alt="logo">
+        <div id="navbar" class="nav-buttons">
+          <div>
+            <a href="#/" class="button-nav" id="product">Product</a>
+            <ul class="menu-dropdown" id="block-one">
+              <li><a href="#/">Overview</a></li>
+              <li><a href="#/">Pricing</a></li>
+              <li><a href="#/">Marketplace</a></li>
+              <li><a href="#/">Features</a></li>
+              <li><a href="#/">Integrations</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#/" class="button-nav" id="company">Company</a>
+            <ul class="menu-dropdown" id="block-two" style="display: none;">
+              <li><a href="#/">About</a></li>
+              <li><a href="#/">Team</a></li>
+              <li><a href="#/">Blog</a></li>
+              <li><a href="#/">Careers</a></li>
+            </ul>
+          </div>
+          <div>
+            <a href="#/" class="button-nav" id="connect">Connect</a>
+            <ul class="menu-dropdown" id="block-three" style="display: none;">
+              <li><a href="#/">Contact</a></li>
+              <li><a href="#/">Newsletter</a></li>
+              <li><a href="#/">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="buttons-login">
+            <a href="#/">Login</a>
+            <a href="#/">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+      <h1 id="main-title">A modern publishing platform</h1>
+      <h2 id="main-description">Grow your audience and build your online brand</h2>
+      <div class="buttons-information">
+        <a href="#/">Start for Free</a> 
+        <a href="#/">Learn More</a> 
+      </div>
+    </div>
+  </header>
+  <section id="first-section-wrapper">
+    <div class="first-section-bg"></div>
+    <h2>Designed for the future</h2>
+    <div class="first-section-texts">
+      <div class="text-wrapper">
+        <h3>
+          Introducing an extensible editor
+        </h3>
+        <p>
+          Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.
+        </p>
+      </div>
+      <div class="text-wrapper">
+        <h3>Robust content management</h3>
+        <p>
+          Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="second-section-wrapper">
+    <div class="second-section-text-wrapper">
+      <div>
+        <h3>State of the Art Infrastructure</h3>
+        <p>
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
+      </div>
+    </div>
+    <div class="second-section-bg-2"></div>
+    <div class="second-section-bg"></div>
+  </section>
+
+  <section id="third-section-wrapper">
+    <div class="inner-third-section-div">
+      <div class="text-wrapper">
+        <h3>
+          Free, open, simple
+        </h3>
+        <p>
+          Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p>
+      </div>
+      <div class="text-wrapper">
+        <h3>Powerful tooling</h3>
+        <p>
+          Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.
+        </p>
+      </div>
+    </div>
+  </section>
+<!--  
+
+  Start for Free
+  Learn More
+
+
+ -->
+ <footer>
+   <div class="footer-menu">
+    <img src="images/logo.svg" alt="logo">
+      <ul>
+        <h4>Product</h4>
+        <li>
+          <a href="#/">Overview</a>
+          <a href="#/">Pricing</a>
+          <a href="#/">Marketplace</a>
+          <a href="#/">Features</a>
+          <a href="#/">Integrations</a>
+        </li>
+      </ul>
+      <ul>
+        <h4>Company</h4>
+        <li>
+          <a href="#/">About</a>
+          <a href="#/">Team</a>
+          <a href="#/">Blog</a>
+          <a href="#/">Careers</a>
+        </li>
+      </ul>
+        <ul>
+        <h4>Connect</h4>
+        <li>
+          <a href="#/">Contact</a>
+          <a href="#/">Newsletter</a>
+          <a href="#/">LinkedIn</a>
+        </li>
+      </ul>
+   </div>
+    <div class="bottom-footer">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="https://github.com/AFLP2199">Agustín López Piceda</a>.</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
